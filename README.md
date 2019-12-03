@@ -13,5 +13,5 @@ The [pipelines](../pipelines) that power the CI jobs for this repository have be
 The CI pipeline validates changes to the [kustomize'd deployment manifests](../deployment).
 
 ### CD
-The CD pipeline deploys the kustomize'd kubernetes manifests of the `taxi` app to the `stage` environment.
+The CD pipeline deploys the kustomize'd kubernetes manifests of the `taxi` app to the `stage` environment
 
