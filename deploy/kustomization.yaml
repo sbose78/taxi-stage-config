@@ -1,13 +1,13 @@
 bases:
-- https://github.com/bigkevmcd/taxi/deploy/templates
+- https://github.com/sbose78/taxi/deploy/templates
 configMapGenerator:
 - name: stage-www-files
   files:
   - index.html
   - staging.html
 images:
-- name: quay.io/kmcdermo/taxi
-  newTag: dd933b8316e67fbb83e1259aeaf3d9a244bbad95
+- name: quay.io/sbose78/taxi
+  newTag: 36e8a1
 patchesJson6902:
 - target:
     version: v1
