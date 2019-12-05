@@ -6,8 +6,8 @@ configMapGenerator:
   - index.html
   - staging.html
 images:
-- name: quay.io/shbose/taxi
-  newTag: 9259aa
+- name: quay.io/sbose78/taxi
+  newTag: latest
 patchesJson6902:
 - target:
     version: v1
