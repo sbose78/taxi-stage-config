@@ -1,5 +1,5 @@
 bases:
-- https://github.com/sbose78/taxi/deploy/templates
+- https://github.com/sbose78/taxi/deploy/templates?ref=master
 configMapGenerator:
 - name: stage-www-files
   files:
